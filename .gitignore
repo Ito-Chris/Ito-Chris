@@ -1,0 +1,20 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# JavaScript
+frontend/node_modules/
+frontend/dist/
+.pnpm-store/
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/.pytest_cache/
+*.py[cod]
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
